@@ -1,0 +1,120 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-oraclethindatabaseaccount",
+    "class_version": 2,
+    "migration_metadata": {
+        "source_org": "YorkSandboxForPrime"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "oracle"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "expression": false,
+                        "value": true
+                    },
+                    "batchSize": {
+                        "expression": false,
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "expression": false,
+                        "value": 10000
+                    },
+                    "evictConnectionOnClose": {
+                        "value": false
+                    },
+                    "fetchSize": {
+                        "expression": false,
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "expression": false,
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "expression": false,
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "expression": false,
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": []
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "DATABASE_SPECIFIER_TYPE": {
+                        "value": "Service name"
+                    },
+                    "JdbcDriversProp": {
+                        "value": []
+                    },
+                    "SSL_CONNECT": {
+                        "value": false
+                    },
+                    "authMethod": {
+                        "value": "User ID and Password"
+                    },
+                    "customJdbcUrl": {
+                        "value": null
+                    },
+                    "databaseName": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "hostname": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "jdbcDriverClass": {
+                        "value": "oracle.jdbc.OracleDriver"
+                    },
+                    "krbConf": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "password": {
+                        "expression": false,
+                        "fp": "70f3ea2be13ea32e27ac4f6ea3800daf785005d16f9cde5e01c27e3c4a6b2ced",
+                        "key": "account-cloud-managed-697056a7d1b24495b0c811f5-2026-01-21T04:31:41-390181+00:00",
+                        "sym_iv": "gf9VuS+aN3Hz4VU11I83vQ==",
+                        "sym_key": "NjrSfqlNZQJJzcYqd5Lx3joTiCu5dAEypj9+VBQZMGz6GGRjTbkFQ18buIySYghD7QMVlAGr8Moqu9nv5MLktT5ZoCrnt3S3SFJOrneJuldjQeVfIL7/muM8OmfJa5U4nYsD1rpltvkRQFj7xZX7wPmcKKDWRn7eo85h43FlrU1T8v75uCmmhpN2XVgcbqJWlAlptMcZbOVXvCvcJqFniGx8fQa9X2ufxaEgRWN5BIAEstpHKrIc3jBpb23nbad1FO9I7PlQih69fpwG0NJ36NTJfP7eYtCebp0yE9FhpSa1cXE9/mCrjydKaRCtcrwMoJtzkvezPvm4Vu77Q9lM3Q==",
+                        "value": "K4RVw+T9qzFPtndiYz5t1Q=="
+                    },
+                    "portNumber": {
+                        "expression": false,
+                        "value": 1521
+                    },
+                    "username": {
+                        "expression": false,
+                        "value": "etl_user"
+                    }
+                }
+            },
+            "jdbcUrlSource": {
+                "value": "Snap Generated"
+            }
+        },
+        "view_serial": 100
+    }
+}
